@@ -250,7 +250,7 @@ task:
     FILE_ENV: "./ci/test/00_setup_env_i686_multiprocess.sh"
 
 task:
-  name: '[no wallet] [bionic]'
+  name: '[Wallet_12ib7dApVFvg82TXKycWBNpN8kFyiAN1dr] [bionic]'
   << : *GLOBAL_TASK_TEMPLATE
   container:
     image: ubuntu:bionic
